@@ -1,27 +1,96 @@
 :root {
-	--ld-linear-calendar-background-weekend: #eee;
+	--ld-linear-calendar-background-weekend: #f3f3f3;
+	--ld-linear-calendar-background-today: #F7899C;
+	--ld-linear-calendar-month-label-color: #ccc;
+	--ld-linear-calendar-bday-color: #198754;
+	--ld-linear-calendar-holiday-color: #c035dcff;
+	--ld-linear-calendar-vacation-color: #202B65;
+	--ld-linear-calendar-permission-color: #0DCAF0;
+	--ld-linear-calendar-suspension-color: #DC3545;
+	--ld-linear-calendar-sick-color: #FFC107;
+}
+.ld-linear-calendar-content h2 {
+	display: block;
+	font-weight: bold;
+	margin-bottom: 0;
+	font-size: 8vw;
+	padding-left: 5vw;
+	color: var(--ld-linear-calendar-month-label-color);
+	line-height: .85em;
 }
 table.ld-linear-calendar {
-	table-layout: fixed;
 	width: 100%;
+	table-layout: fixed;
+	table-spacing: 0;
 	border-collapse: collapse;
 	font-size: .9em;
 	text-align: center;
-	border: 1px solid #ddd;
-}
-table.ld-linear-calendar thead tr th {
-	border-bottom: 1px solid #ddd;
-}
-table.ld-linear-calendar tbody tr:nth-child(odd) {
-	background-color: #f6f6f6;
 }
 table.ld-linear-calendar tr th,
 table.ld-linear-calendar tr td {
-	padding: 4px;
+	position: relative;
+	font-size: 1vw;
+	padding: 0.5vw 0;
+	width: 1%;
+}
+table.ld-linear-calendar tr td div.month-label {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-225%, -50%);
+	font-weight: bold;
+	font-size: .75em;
+	color: var(--ld-linear-calendar-month-label-color);
+}
+table.ld-linear-calendar tr td:not(:empty) {
+	border: 1px solid #ddd;
+	background-color: #fff;
 }
 table.ld-linear-calendar tr th:nth-child(7n + 6),
 table.ld-linear-calendar tr th:nth-child(7n),
 table.ld-linear-calendar tr td:nth-child(7n + 6),
 table.ld-linear-calendar tr td:nth-child(7n) {
 	background-color: var(--ld-linear-calendar-background-weekend);
+}
+.ld-linear-calendar-today {
+	background-color: var(--ld-linear-calendar-background-today) !important;
+	color: #fff;
+	font-weight: bold;
+	border: none !important;
+}
+.ld-linear-calendar-event-bday {
+	background-color: var(--ld-linear-calendar-bday-color) !important;
+	color: #fff;
+	font-weight: bold;
+	border: none !important;
+}
+.ld-linear-calendar-event-holiday {
+	background-color: var(--ld-linear-calendar-holiday-color) !important;
+	color: #fff;
+	font-weight: bold;
+	border: none !important;
+}
+.ld-linear-calendar-event-vacation {
+	background-color: var(--ld-linear-calendar-vacation-color) !important;
+	color: #fff;
+	font-weight: bold;
+	border: none !important;
+}
+.ld-linear-calendar-event-permission {
+	background-color: var(--ld-linear-calendar-permission-color) !important;
+	color: #fff;
+	font-weight: bold;
+	border: none !important;
+}
+.ld-linear-calendar-event-suspension {
+	background-color: var(--ld-linear-calendar-suspension-color) !important;
+	color: #fff;
+	font-weight: bold;
+	border: none !important;
+}
+.ld-linear-calendar-event-sick {
+	background-color: var(--ld-linear-calendar-sick-color) !important;
+	color: #000;
+	font-weight: bold;
+	border: none !important;
 }

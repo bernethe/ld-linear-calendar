@@ -1,0 +1,107 @@
+[
+	{
+		"date": "2025-04-07",
+		"label": "Cumpleaños",
+		"labelCode": "bday"
+	},
+	{
+		"date": "2025-12-31",
+		"label": "Fin de Año",
+		"labelCode": "holiday"
+	},
+	{
+		"date": "2025-01-01",
+		"label": "Año Nuevo",
+		"labelCode": "holiday"
+	},
+	{
+		"date": "2025-05-01",
+		"label": "Día del Trabajador",
+		"labelCode": "holiday"
+	},
+	{
+		"date": "2025-07-25",
+		"label": "Día de la Anexión del Partido de Nicoya",
+		"labelCode": "holiday"
+	},
+	{
+		"date": "2025-08-15",
+		"label": "Día de la Madre",
+		"labelCode": "holiday"
+	},
+	{
+		"date": "2025-08-02",
+		"label": "Día de la Virgen de los Ángeles",
+		"labelCode": "holiday"
+	},
+	{
+		"date": "2025-08-31",
+		"label": "Día de la Persona Negra y la Cultura Afrocostarricense",
+		"labelCode": "holiday"
+	},
+	{
+		"date": "2025-09-15",
+		"label": "Día de la Independencia",
+		"labelCode": "holiday"
+	},
+	{
+		"date": "2025-12-01",
+		"label": "Día de la Abolición del Ejército ",
+		"labelCode": "holiday"
+	},
+	{
+		"date": "2025-12-25",
+		"label": "Navidad",
+		"labelCode": "holiday"
+	},
+	{
+		"date": "2025-06-09",
+		"label": "Vacaciones",
+		"labelCode": "vacation"
+	},
+	{
+		"date": "2025-06-10",
+		"label": "Vacaciones",
+		"labelCode": "vacation"
+	},
+	{
+		"date": "2025-06-11",
+		"label": "Vacaciones",
+		"labelCode": "vacation"
+	},
+	{
+		"date": "2025-06-12",
+		"label": "Vacaciones",
+		"labelCode": "vacation"
+	},
+	{
+		"date": "2025-06-13",
+		"label": "Vacaciones",
+		"labelCode": "vacation"
+	},
+	{
+		"date": "2025-01-27",
+		"label": "Suspendido",
+		"labelCode": "suspension"
+	},
+	{
+		"date": "2025-04-29",
+		"label": "Permiso",
+		"labelCode": "permission"
+	},
+	{
+		"date": "2025-02-14",
+		"label": "Enfermedad",
+		"labelCode": "sick"
+	},
+	{
+		"date": "2025-02-15",
+		"label": "Enfermedad",
+		"labelCode": "sick"
+	},
+	{
+		"date": "2025-02-16",
+		"label": "Enfermedad",
+		"labelCode": "sick"
+	}
+]
