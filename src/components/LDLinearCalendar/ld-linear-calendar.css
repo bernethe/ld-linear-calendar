@@ -1,0 +1,27 @@
+:root {
+	--ld-linear-calendar-background-weekend: #eee;
+}
+table.ld-linear-calendar {
+	table-layout: fixed;
+	width: 100%;
+	border-collapse: collapse;
+	font-size: .9em;
+	text-align: center;
+	border: 1px solid #ddd;
+}
+table.ld-linear-calendar thead tr th {
+	border-bottom: 1px solid #ddd;
+}
+table.ld-linear-calendar tbody tr:nth-child(odd) {
+	background-color: #f6f6f6;
+}
+table.ld-linear-calendar tr th,
+table.ld-linear-calendar tr td {
+	padding: 4px;
+}
+table.ld-linear-calendar tr th:nth-child(7n + 6),
+table.ld-linear-calendar tr th:nth-child(7n),
+table.ld-linear-calendar tr td:nth-child(7n + 6),
+table.ld-linear-calendar tr td:nth-child(7n) {
+	background-color: var(--ld-linear-calendar-background-weekend);
+}
