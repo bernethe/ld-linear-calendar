@@ -7,8 +7,7 @@ import EmployeeSnippet from './components/EmployeeSnippet';
 const App = () => {
 
 	const calRef = useRef();
-	const theYear = (new Date()).getFullYear();
-	const semanasSantas = calcularSemanaSanta(theYear);
+	const semanasSantas = calcularSemanaSanta( (new Date()).getFullYear() );
 
 	useEffect(() => {
 		calData.push({
@@ -29,15 +28,13 @@ const App = () => {
 
 	return <div className='container'>
 		<header className='row py-2'>
-			<div className='col'>
+			<div className='col-sm-8'>
 				<h1>LD Linear Calendar</h1>
 			</div>
-		</header>
-		<div className='row'>
-			<div className='col-sm-6 col-lg-4 offset-sm-3 offset-lg-4'>
+			<div className='col-sm-4'>
 				<EmployeeSnippet />
 			</div>
-		</div>
+		</header>
 		<main className='row'>
 			<div className='col'>
 				<LDLinearCalendar ref={calRef} />

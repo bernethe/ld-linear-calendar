@@ -1,13 +1,13 @@
 :root {
 	--ld-linear-calendar-background-weekend: #f3f3f3;
-	--ld-linear-calendar-background-today: #F7899C;
+	--ld-linear-calendar-background-today: #000;
 	--ld-linear-calendar-month-label-color: #ccc;
-	--ld-linear-calendar-bday-color: #198754;
-	--ld-linear-calendar-holiday-color: #c035dcff;
-	--ld-linear-calendar-vacation-color: #202B65;
+	--ld-linear-calendar-bday-color: #47D45A;
+	--ld-linear-calendar-holiday-color: #7F7F7F;
+	--ld-linear-calendar-vacation-color: #0D6EFD;
 	--ld-linear-calendar-permission-color: #0DCAF0;
-	--ld-linear-calendar-suspension-color: #DC3545;
-	--ld-linear-calendar-sick-color: #FFC107;
+	--ld-linear-calendar-suspension-color: #DF3445;
+	--ld-linear-calendar-sick-color: #FEC007;
 }
 .ld-linear-calendar-content h2 {
 	display: block;
