@@ -30,7 +30,7 @@ table.ld-linear-calendar tr th,
 table.ld-linear-calendar tr td {
 	position: relative;
 	font-size: 1vw;
-	padding: 0.5vw 0;
+	padding: 0.45vw 0;
 	width: 1%;
 }
 table.ld-linear-calendar tr td div.month-label {

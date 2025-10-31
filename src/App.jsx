@@ -42,7 +42,7 @@ const App = () => {
 		</main>
 		<div className='row my-4'>
 			<div className='col'>
-				<ul className='list-inline'>
+				<ul className='list-inline d-flex justify-content-center gap-2'>
 					<li className='list-inline-item badge text-bg-light'><div className='point ld-linear-calendar-today'></div> Hoy</li>
 					<li className='list-inline-item badge text-bg-light'><div className='point ld-linear-calendar-event-bday'></div> Cumpleaños</li>
 					<li className='list-inline-item badge text-bg-light'><div className='point ld-linear-calendar-event-holiday'></div> Feriado</li>
